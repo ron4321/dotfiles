@@ -1,0 +1,23 @@
+cask_args appdir: "/Applications"
+
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+
+brew "bash-completion"
+brew "git"
+brew "jq"
+brew "rsync"
+brew "shellcheck"
+brew "tree"
+brew "watch"
+brew "wget"
+
+cask "alfred"
+cask "docker"
+cask "google-chrome"
+cask "iterm2"
+cask "notion"
+cask "visual-studio-code"

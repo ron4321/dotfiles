@@ -1,0 +1,14 @@
+[ghq]
+	root = /Users/ron-mac/repos
+[user]
+	name = ron4321
+	email = ships147258+cl@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = input
+[push]
+	default = current
+[alias]
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+[pull]
+	rebase = true
